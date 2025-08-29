@@ -15,11 +15,11 @@ public int multiply(int a,int b)
 public int divide(int a,int b)
   {
     if(b==0)
-      throw new
-Arithmetic Expection("cannot divide by zero")
+      throw new Arithmetic Expection("cannot divide by zero")
+        
         return a/b;
   }
-public Static void main(String[]args)
+public static void main(String[]args)
 {
 calculator calc= new calculator();
 System.out.println("Addition"+calc.add(10,5));
