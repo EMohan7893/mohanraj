@@ -12,8 +12,10 @@ public int multiply(int a,int b)
   {
     return a*b;
   }
-public int divide(int a, int b) {
-    if (b == 0) {
+public int divide(int a, int b) 
+  {
+    if (b == 0)
+    {
         throw new ArithmeticException("Cannot divide by zero");
     }
     return a / b;
@@ -28,5 +30,5 @@ System.out.println("multiplication:"+calc.multiply(10,5));
 System.out.println("Division:"+calc.divide(10,5));
 
 
-
+}
 
