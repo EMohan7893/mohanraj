@@ -28,7 +28,6 @@ System.out.println("Addition"+calc.add(10,5));
 System.out.println("subtraction"+calc.substract(10,5));
 System.out.println("multiplication:"+calc.multiply(10,5));
 System.out.println("Division:"+calc.divide(10,5));
-
-
+}
 }
 
