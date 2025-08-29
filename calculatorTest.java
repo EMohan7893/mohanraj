@@ -10,21 +10,21 @@ public class calculatorTest
    
     @Test public void testAddition() 
   {
-        assertEquals(15, calc.add(10, 5)); 
+        assert Equals(15, calc.add(10, 5)); 
     }
 
  
     @Test public void testSubtraction() {
-        assertEquals(5, calc.subtract(10, 5));
+        assert Equals(5, calc.subtract(10, 5));
     }
 
     @Test public void testMultiplication() {
-        assertEquals(50, calc.multiply(10, 5)); 
+        assert Equals(50, calc.multiply(10, 5)); 
     }
 
     
     @Test public void testDivision() 
   {
-        assertEquals(2, calc.divide(10, 5)); 
+        assert Equals(2, calc.divide(10, 5)); 
 }
   }
