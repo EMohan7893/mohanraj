@@ -1,11 +1,11 @@
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-public class CalculatorTest
+public class calculatorTest
   {
 
   
-    Calculator calc = new Calculator();
+    calculator calc = new calculator();
 
    
     @Test public void testAddition() 
